@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hotel Reservation</title>
+    <link rel="stylesheet" type="text/css" href="DESIGN.css">
+</head>
+<body>
+
+<div class="container">
+    <h2>Hotel Reservation</h2>
+    <form action="Rfunc.php" method="post">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br>
+        <label for="checkin">Check-in Date:</label><br>
+        <input type="date" id="checkin" name="checkin" required><br>
+        <label for="checkout">Check-out Date:</label><br>
+        <input type="date" id="checkout" name="checkout" required><br>
+        <label for="room_type">Room Type:</label><br>
+        <select id="room_type" name="room_type" required>
+            <option value="Single">Single</option>
+            <option value="Double">Double</option>
+            <option value="Suite">Suite</option>
+        </select><br>
+        <input type="submit" value="Submit">
+    </form>
+</div>
+
+<div class="footer">
+    <p>Hotel Reservation System - &copy; 2024</p>
+</div>
+
+</body>
+</html>
